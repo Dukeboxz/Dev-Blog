@@ -1,22 +1,19 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2020-05-05"
 description: "Hello World"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Well I have started my own Dev blog since that seems to be what all the cool kids are doing these days.
 
-I'm sure I'll write a lot more interesting things in the future.
+It is mostly going to be about what I am working on and what I find interesting so if you are here great hope you like what you see.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+The title of the blog is Dev Come Later because that is what I have done. While always interested in computers I did not make that the basis of my first career. My first career was as a project manager in local councils. While this did start as enjoyable I found that I was hating my job more and more as the years went on. Looking back I see this was more about the organisation I was in rather than the job but it did make me look at alternative careers. I had always been interested in the concept of creating computer programs and coding, so went the axe fell and I was made redundant I was able to take a masters in Computer Science and start a new journey as a developer.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+What I have learnt in my first few years is I basically know nothing and will probably feel this way for most of my career. While this is scary it is also exhilarating to always have something new to find out about and learn. 
 
-![Chinese Salty Egg](./salty_egg.jpg)
+
+
+![Confusion sign](careerchange.jpg)
+
+Stay tuned for more tails of my journey.....
