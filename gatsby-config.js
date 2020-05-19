@@ -4,7 +4,7 @@ module.exports = {
     author: {
       name: `Stephen Jackson`,
       summary: `After many years as a project manager I have changed my career to become a software developer.  I am now a few years in a am now gainfully employed as a 
-      ,Net Developer.`,
+      .Net Developer.`,
     },
     description: ``,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,

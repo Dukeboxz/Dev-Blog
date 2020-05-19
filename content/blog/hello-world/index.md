@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: "2020-05-05"
-description: "Hello World"
+description: "The start of my new dev blog"
 ---
 
 Well I have started my own Dev blog since that seems to be what all the cool kids are doing these days.
