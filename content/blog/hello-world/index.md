@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: "2020-05-05"
+date: "2020-05-04"
 description: "The start of my new dev blog"
 ---
 
@@ -16,4 +16,4 @@ What I have learnt in my first few years is I basically know nothing and will pr
 
 ![Confusion sign](careerchange.jpg)
 
-Stay tuned for more tails of my journey.....
+Stay tuned for more on my journey.....
