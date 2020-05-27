@@ -1,0 +1,17 @@
+.NavLink {
+    float: left;
+    margin-left: 2em;
+    color: black;
+}
+.NavList{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  
+}
+
+.NavLink a {
+  color: #adde00;
+}

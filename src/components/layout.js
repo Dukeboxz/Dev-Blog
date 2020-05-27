@@ -1,17 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import { rhythm, scale } from "../utils/typography"
+import Bio from "./bio"
+import NavBar from "./navBar"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
+  const banner = useStaticQuery(graphql`
+  {
+    file(relativePath: {eq: "Banner2.png"}) {
+      childImageSharp {
+       fluid{
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+  `)
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
+      <div
         style={{
-          ...scale(2),
+          
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -23,19 +37,23 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          <Img fluid={banner.file.childImageSharp.fluid}
+          alt="Banner Stephen Jackson is Dev Come Later"
+          />
         </Link>
-      </h1>
+    </div>
+    
+      
     )
   } else {
     header = (
-      <h3
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
+      <div  style={{
+        ...scale(1.5),
+        marginBottom: rhythm(1.5),
+        marginTop: 0,
+      }}>
+       
+      
         <Link
           style={{
             boxShadow: `none`,
@@ -45,7 +63,7 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h3>
+       </div>
     )
   }
   return (
@@ -53,11 +71,13 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        maxWidth: rhythm(48),
+        padding: `${rhythm(1.5)} ${rhythm(2 / 4)}`,
       }}
     >
       <header>{header}</header>
+      <Bio />
+      <NavBar/>
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
