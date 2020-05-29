@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import { rhythm, scale } from "../utils/typography"
 import Bio from "./bio"
 import NavBar from "./navBar"
+import Taglist from "./tagList"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -78,7 +79,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <Bio />
       <NavBar/>
+      
       <main>{children}</main>
+      <Taglist/>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}

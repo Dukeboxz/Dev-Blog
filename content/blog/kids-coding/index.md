@@ -2,7 +2,7 @@
 title: How volunteering a kids code club helped me as a developer
 date: "2020-05-05"
 description: "A few years ago I started a code club for kids in my town.  Teaching kids to code is very rewarding in itself but i have also found that it has benefitted me as a software developer"
-tags: ["kids-coding", "professional development"] 
+tags: ["kids-coding", "career", "development"] 
 ---
 
 A few years ago me and a few others started a kids code club in a local community center.  Our aim was to introduce children aged 8 - 13 to coding and technology and help them develop their skills and knowledge in those areas.  With donated equipment and with trepidation we took the plunge. Over the last few years working with a ever changing group of kids with mixed ages and abilities the experience has been very rewarding to give kids skills and enjoyment through coding.

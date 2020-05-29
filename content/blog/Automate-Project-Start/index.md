@@ -2,7 +2,7 @@
 title: Automating my project start up.
 date: "2020-05-19"
 description: "Tired of having to start multiple programs and code files everytime I started on my project I created a bash script to do it all.  This is how:"
-tags: ["linux"]
+tags: ["linux", "development"]
 ---
 
 One of my current side projects is to create a website for a kids tech club that will let the kids earn points for coding tasks they complete.  To expand my knowledge I am using the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(solution_stack)) since I have not used those technologies before.  

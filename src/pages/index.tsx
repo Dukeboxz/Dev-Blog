@@ -22,6 +22,7 @@ type Data = {
           title: string
           date: string
           description: string
+          tags: Array<string>
         }
         fields: {
           slug: string
@@ -34,14 +35,21 @@ type Data = {
 const BlogIndex = ({ data, location }: PageProps<Data>) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
      
+     
+
 
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
+        const tags = node.frontmatter.tags
+
+        console.log( ' LOCATION= ' + location.state)
+        if(!location.state || location.state.theTag==="ShowAll" || tags.includes(location.state.theTag) ){
         return (
           <article key={node.fields.slug}>
             <header>
@@ -65,6 +73,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
             </section>
           </article>
         )
+              }
       })}
     </Layout>
   )
@@ -90,6 +99,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }
