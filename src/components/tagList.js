@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import styles from "../styles/tagList.module.css"
+
 
  
 
@@ -19,9 +19,7 @@ const TagList = () => {
 
    const tags = tagTest.allMarkdownRemark.group
    
-   function showPosts(){
-    console.log("click")
-  }
+  
     return (
 
       <div>

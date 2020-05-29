@@ -6,6 +6,7 @@ import { rhythm, scale } from "../utils/typography"
 import Bio from "./bio"
 import NavBar from "./navBar"
 import Taglist from "./tagList"
+import styles from "../styles/layoutStyles.module.css"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -79,9 +80,13 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <Bio />
       <NavBar/>
+     
+      <div className={styles.ContentArea}>
+      <main  className={styles.MainArea}>{children}</main>
+
+      <Taglist className={styles.RightSiteBar} />
       
-      <main>{children}</main>
-      <Taglist/>
+      </div>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}

@@ -1,0 +1,22 @@
+.ContentArea::after{
+    content: "";
+  display: table;
+  clear: both;
+}
+
+.MainArea{
+    float: left;
+    width: 66.66%;
+    padding: 15px;
+}
+
+.RightSideBar{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+@media screen and (max-width:600px){
+    .MainArea{
+        width: 100%;
+    }
+}
