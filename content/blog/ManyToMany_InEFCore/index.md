@@ -3,7 +3,7 @@ title: Creating Many to Many Relationships in Entity Frameowrk Core.
 date: "2020-06-16"
 description: "In moving to Entity Framework core I have found a few gotchas.  One is how Entity Framework Core deals with many to many relationships.  This blog post shows what you have to 
 do different."
-tags: ["development" "Dot Net Core"]
+tags: ["development", "Dot Net Core"]
 
 ---
 
