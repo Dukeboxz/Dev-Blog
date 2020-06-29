@@ -3,7 +3,7 @@ module.exports = {
     title: `Dev come later`,
     author: {
       name: `Stephen Jackson`,
-      summary: `After many years as a project manager I have changed my career to become a software developer.  I am now a few years in a am now gainfully employed as a 
+      summary: `After many years as a project manager I have changed my career to become a software developer.  I am now a few years in and am now gainfully employed as a 
       .Net Developer.`,
     },
     description: ``,
